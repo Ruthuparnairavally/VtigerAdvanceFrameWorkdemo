@@ -65,7 +65,7 @@ public class CreateContactWithOrgTest extends BaseClass {
 		//Navigate to contacts link
 		hp.clickOnContactsLink();
 		Reporter.log("Click on contacts Link",true);
-		//Assert.fail();
+		Assert.fail();
 		
 		//Click on create contact look up image
 		ContactsPage cp = new ContactsPage(driver);
@@ -86,7 +86,7 @@ public class CreateContactWithOrgTest extends BaseClass {
 		
 	}
 	
-	
+	/*
 	@Test(groups = "RegressionSuite")
 	public void demoRegressionTest()
 	{
@@ -98,5 +98,5 @@ public class CreateContactWithOrgTest extends BaseClass {
 		Assert.fail();
 		
 		
-	}
+	}*/
 }
